@@ -1,0 +1,41 @@
+<!--Tom Smolarek 1801495-->
+
+<!--button to connect to the menu navigation with the title next to it-->
+<ion-header>
+    <ion-navbar>
+      <ion-buttons start>
+      <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    </ion-buttons>
+      <ion-title>Contact</ion-title>
+    </ion-navbar>
+  </ion-header>
+
+<!--creating a ion card with 4 items including a icon-->
+<ion-content>
+    <ion-card>
+      <ion-card-header style="font-size:18pt;">
+        Contact information
+      </ion-card-header>
+      <ion-card-content>
+        <ion-item>
+          <ion-icon name="Contact" slot="start"></ion-icon>
+          Tom Smolarek
+        </ion-item>
+        <ion-item>
+          <ion-icon name="mail" slot="start"></ion-icon>
+          Asternweg 8<br>
+          71106 Magstadt
+        </ion-item>
+        <ion-item>
+          <ion-icon name="at" slot="start"></ion-icon>
+          tom.smolarek@web.de
+        </ion-item>
+        <ion-item>
+          <ion-icon name="call" slot="start"></ion-icon>
+          01578/9088837
+        </ion-item>
+      </ion-card-content>
+    </ion-card>
+  </ion-content>

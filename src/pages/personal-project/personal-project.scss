@@ -1,0 +1,48 @@
+//Tom Smolarek 1801495
+
+page-personal-project {
+
+    .swiper-pagination-bullet-active {
+        background: rgb(0, 0, 0);
+    }
+
+    .image1{
+        background-image: url('../assets/imgs/project1.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+
+    .image2{
+        background-image: url('../assets/imgs/project2.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+
+    .image3{
+        background-image: url('../assets/imgs/project3.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+
+    .image4{
+        background-image: url('../assets/imgs/project4.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+
+    .image5{
+        background-image: url('../assets/imgs/project5.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+
+    .padding{
+        padding-bottom: 100px;
+    }
+
+}
